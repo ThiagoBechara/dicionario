@@ -93,7 +93,7 @@ export default class HomeScreen extends Component{
                 });
             }}
           />
-        {   <input 
+        {   <TextInput 
            onChangeText={text => {
               this.setState({
                 text: text,
